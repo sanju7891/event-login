@@ -24,7 +24,7 @@ export default function Register() {
     }
 
     return (
-        <div className="border p-3 bg-light mt-5">
+        <div className="border p-3 bg-light col-sm-4 mx-auto mt-5">
             <h1>Register</h1>
             <div className="form-group">
             <label>Name</label>
@@ -48,7 +48,10 @@ export default function Register() {
 
                     placeholder="enter your password " />
 
-                <button className='btn btn-primary' onClick={handleRegister}>Register</button>
+
+                    
+
+                <button className='btn btn-primary mt-2' onClick={handleRegister}>Register</button>
 
 
             </div>
