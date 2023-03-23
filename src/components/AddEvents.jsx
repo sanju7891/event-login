@@ -96,14 +96,14 @@ export default function AddEvents() {
 
                         <label>Description</label>
                         <textarea type="text" name="description" className='form-control' value={formData.description} onChange={(e) => handleChange(e)} />
-                       
+
                         <label>Price</label>
                         <input type="text" name="price" className='form-control' value={formData.price} onChange={(e) => handleChange(e)} />
 
                         <label>Image upload</label>
                         <input type="file" name="image" accept='image/*' className='form-control' onChange={(e) => handleImageChange(e)} />
-                     
-                       
+
+
                         {
                             progress === 0 ? null :
                                 <div className="progress mt-2">
